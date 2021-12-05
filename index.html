@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="pl-PL">
+	<head>
+		<title>Muszyno</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Zachariasz Soja">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" href="style.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet'>
+        <script src="slider.js"></script>
+	</head>
+	<body>
+        <header>
+            <div class="logo-search">
+                <img src="img/logo.png">
+                <input type="text" placeholder="Wyszukaj na stronie...">
+                <button type="button"><em>Wyszukaj</em></button>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="artykuly.html">Artykuły</a></li>
+                    <li><a href="produkty.html">Produkty</a></li>
+                    <li><a href="koszyk.html">Koszyk</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="slider">
+            <div class="slider-element side" id="slide1">
+                <img src="img/packa.png">
+                <h2>Packa Smack </h2>
+                <h3>Cena: 6,66zł</h3>
+            </div>
+            
+            <button class="arrow" onclick="shiftSlidesLeft()">
+                <img class="arrow" src="img/left-arrow.png" >
+            </button>
+
+            <div class="slider-element center" id="slide2">
+                <img src="img/moskitiera.png">
+                <h2>Moskitiera YouNoPass</h2>
+                <h3>Cena: 21,37zł</h3>
+            </div>
+
+            <button class="arrow"onclick="shiftSlidesRight()">
+                <img class="arrow second-arrow" src="img/left-arrow.png" >
+            </button>
+
+            <div class="slider-element side" id="slide3">
+                <img src="img/spray.png">
+                <h2>Spray <q>Nie siada</q></h2>
+                <h3>Cena: 11,11zł</h3>
+            </div>
+        </div>
+
+        <div class="articles">
+            <article>
+                <h2><i>Promocje</i></h2>
+                <section>
+                    <p>Już dzisiaj zamów pakiet 
+                    wszystkich naszych produktów
+                     a otrzymasz zniżkę do -20%!
+                    </p>
+                    <img src="img/spray.png">
+                </section>
+            </article>
+
+            <article>
+                <h2><i>Aktualności</i></h2>
+                <section>
+                    <p>Firma MuszyNo wprowadza na rynek nowe i unikalne 
+                    rozwiązania na zwalczenie owadów.
+                     Rozwiązania te są niezwykle skuteczne oraz unikalne 
+                     na skale całego świata.
+                     Przedstawienie nowej linii produktów 
+                     odbędzie się do 15.06.2021 roku w naszej firmie.
+                     Planujemy również sprawić aby firma rozsławiła się na całą europę.
+                    </p>
+                </section>
+            </article>
+
+            <article>
+                <h2><i>O nas</i></h2>
+                <section>
+                    <p>
+                        Firma MuszyNo to znana i często nagradza,
+                         najskuteczniejsza firma 
+                         prowadząca najnowocześniejsze rozwiązania 
+                         na zwalczanie much i owadów. 
+                    </p>
+                    <img src="img/budynek.png">
+                </section>
+            </article>
+        </div>
+
+        <footer>
+            <div class="foot">
+                <div class="contact">
+                    <h3>Kontakt:</h3>
+                    <p>
+                        ul. Monte Cassino 31, Kraków<br>
+                        123 456 789<br>
+                        mail: <em>zadania.zsl@wp.pl</em>
+                    </p>
+                </div>
+
+                <div class="social-media">
+                    <a href="https://www.facebook.com">
+                        <img src="img/fb.png">
+                    </a>
+                    <a href="https://www.instagram.com">
+                        <img src="img/insta.png">
+                    </a>
+                </div>
+            </div>
+            <h2>Projekt i wykonanie: Zachariasz Soja</h2>
+        </footer>
+	</body>
+</html>
